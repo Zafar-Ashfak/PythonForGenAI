@@ -49,3 +49,71 @@ new_str = "I love Java"
 rp = new_str.replace("Java", "Python")
 print(new_str)
 print(rp)
+
+# 12. startswith() -> check prefix
+sw = text.startswith(" ") # True
+print(sw)
+
+sw = text.startswith("the") # False
+print(sw)
+
+# 13. endswith() -> check suffix
+ew = text.endswith(" ") # True
+print(ew)
+
+ew = text.endswith("mind") # False
+print(ew)
+
+# 14. split() -> split into a list
+spl = text.split()
+print(spl)
+
+# 15. join() -> oin elements of an iterable into a string
+words = ["Python", "Java", "C++", "JavaScript", "Ruby", "SQL"]
+print(" ".join(words))
+print(", ".join(words))
+
+# 16. isalpha() -> True if all characters are alphabets
+print("Python".isalpha()) # True
+print("Python123".isalpha()) # False
+
+# 16. isalnum() -> True if all characters are alphabets or digits
+print("Python".isalnum()) # True
+print("Python123".isalnum()) # True
+
+# 17. islower() -> check for lower case string
+print("Python".islower()) # False
+print("python".isalnum()) # True
+
+# 18. isupper() -> check for upper case string
+print("PYTHON".isupper()) # True
+print("python".isupper()) # False
+print("Python".isupper()) # False
+
+# 19. isspace() -> check for only space
+print(" python".isspace()) # False
+print("  ".isspace()) # True
+
+# 20. center() # wrap the string with the given symbol
+print("Python".center(20, "-"))
+
+# 21. ljust()
+print("Python".ljust(15, "*"))
+
+# 22. rjust()
+print("Python".rjust(15, "*"))
+
+# 23. zfill()
+print("25".zfill(5))
+
+
+
+
+
+
+
+
+
+
+
+
