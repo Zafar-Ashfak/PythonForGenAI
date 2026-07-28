@@ -106,6 +106,17 @@ print("Python".rjust(15, "*"))
 # 23. zfill()
 print("25".zfill(5))
 
+# 24. len() -> returns the length of the string
+print(len("Python")) # 6
+print(len(text))
+
+# 25. reverse() -> reverse a string
+my_str = "Python"
+
+
+
+
+
 
 
 
