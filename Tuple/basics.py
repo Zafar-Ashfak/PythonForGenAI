@@ -4,6 +4,9 @@ print(my_tuple)
 # *********** TUPLE METHODS *************
 
 nums = (3, 1, 7, 3, 4, 9, 2, 6, 5, 1, 4)
+print(f"First element of the tuple is: {nums[0]}")
+print(f"Last element of the tuple is: {nums[len(nums) - 1]}")
+print(f"Middle element of the tuple is: {nums[len(nums) // 2]}")
 
 # 1. count() -> Returns the number of times a value appears in the tuple.
 val1 = 3
@@ -37,6 +40,7 @@ print(tuple1 + tuple2)
 
 # 7. Repetition
 print((200, 500) * 3)
+print(("Hello Zafar", ) * 5)
 
 # 8. Convert the tuple to list
 my_list = list(nums)
