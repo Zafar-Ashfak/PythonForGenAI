@@ -1,4 +1,4 @@
-my_list = [1, 3, 5.2, 66,331, "Zafar", "Ashfaq", True, False, None]
+my_list = [1, 3, 5.2, 66, 331, "Zafar", "Ashfaq", True, False, None]
 
 print(my_list, type(my_list))
 
@@ -61,10 +61,35 @@ print(sum({2, 13, 21, 6, 19, 7}))
 print(sum(num))
 
 # 15. index() -> Returns the index of the first occurrence
-# 16. Membership
-# 17. List Concatenation
+idx = my_list.index(331)
+print(idx)
+
+# 16. List Concatenation
+list1 = [5, 2, 9, 4, 1, 7, 8, 4]
+list2 = [6, 8, 1, 3, 5, 2, 1]
+
+concat_list = list1 + list2
+print(concat_list) #
+
+# 17. Membership
+print(4 in list1) # True
+print(104 in list1) # False
+
+print(202 not  in list2) # True
+print(6 not in list2) # False
+
 # 18. Repetition
-# 19. Slicing
+print([100, 200, 300, ] * 3)
+
+
+# 19. Slicing -> Returns sliced list
+print(list1[0 : 5])
+print(list1[0: ])
+print(list1[ : 4])
+print(list1[::-1])
+
+
 # 20. List Comprehension (Very Important)
-squares = [i * i for i in range(1, 6)]
+n = 10
+squares = [i * i for i in range(1, n + 1)]
 print(squares)
