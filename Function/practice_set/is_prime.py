@@ -12,6 +12,7 @@ def isprime(num):
 
 
 def main():
+    print("Program to check if a number is prime")
     num = int(input("Enter a natural number: "))
     res = isprime(num)
     if res:
