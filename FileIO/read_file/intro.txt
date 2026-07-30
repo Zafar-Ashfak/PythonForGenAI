@@ -1,0 +1,5 @@
+Hi, I'm Zafar Ashfaq. I completed my MCA in 2024 and currently work as a Java Backend Developer,
+where I build REST APIs using Java, Spring Boot, Spring Security, JPA, Hibernate, and MySQL.
+Recently, I've also been learning Python and focusing on the skills needed for GenAI
+engineering, including Python fundamentals and AI-related libraries. I'm passionate about backend
+development, problem-solving, and continuously learning new technologies.
