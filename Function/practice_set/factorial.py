@@ -1,0 +1,17 @@
+# Write a function to check factorial of a number given by user
+
+def factorial(num):
+    fac = 1
+
+    for i in range(1, num + 1):
+        fac *= i
+
+    return fac
+
+def main():
+    print("Program to print factorial of a number")
+    num = int(input("Enter a natural number: "))
+    res = factorial(num)
+    print(f"{num}! = {res}")
+
+main()
