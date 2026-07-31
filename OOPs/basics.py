@@ -1,10 +1,6 @@
 class Car:
-
-    def __init__(self):
-        print("Object is creating....")
-
     brand = "Ferrari"
-    def __init__(self, wheels, color):
+    def __init__(self, wheels, color): # Constructor
       self.wheels = wheels
       self.color = color
 
