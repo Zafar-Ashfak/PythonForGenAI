@@ -1,0 +1,6 @@
+Hii, I am Md Ashfaq Alam. And I am a Java Backend Developer.
+And I want to switch my tech into AI Engineering.
+And I have learnt a lot in the course.
+I have learnt Python, File Handling, OOPs, Exception Handling.
+I will learn LLMs, Tools like LangChain, LangGraph
+Then I will jump into AI.
