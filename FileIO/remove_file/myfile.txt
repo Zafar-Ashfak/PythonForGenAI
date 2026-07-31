@@ -1,0 +1,7 @@
+Hi, I'm Zafar Ashfaq. My background is in Java backend development, where I've built secure
+and scalable applications using Spring Boot, Spring Security, Hibernate, and MySQL. To move
+into AI engineering, I'm currently focusing on Python and the technologies used to build
+Generative AI applications. My learning roadmap includes NumPy, Pandas, machine learning
+basics, LLMs, LangChain, RAG, vector databases, and AI deployment. My combination of
+backend development experience and growing AI expertise allows me to build production-ready
+AI applications, and I'm excited to contribute to this rapidly evolving field.
