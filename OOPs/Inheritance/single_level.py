@@ -5,10 +5,8 @@ class Car:
         self.color = color
         self.fuel_type = fuel_type
 
-
     def start(self):
         print(f"{self.brand} {self.model} started...")
-
 
     def stop(self):
         print(f"{self.brand} {self.model} stopped...")
