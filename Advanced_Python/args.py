@@ -8,18 +8,12 @@
 #
 # main()
 
-# There would be no TypeError
-def display(*args):
-    for item in args:
-        print(item)
-
-def show(normal, *args):
-    print(normal)
-    for item in args:
-        print(f"\t{item}")
+def sum_numbers(*args) -> int:
+    return sum(args)
 
 def main():
-    fruits = ("Apple", "Banana", "Grapes", "Papaya", "Mango", "Pine apple", "Coconut")
-    # display(*fruits)
-    show("Fruits Name: ", *fruits)
+    print(sum_numbers(1, 2, 3, 4, 5))
+    print(sum_numbers(1, 2, 3, 4, 5, 6, 7))
+    print(sum_numbers(1, 2, 3, 4, 5, 6, 7, 8, 9 , 10))
+
 main()
