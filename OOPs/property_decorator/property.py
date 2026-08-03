@@ -18,16 +18,16 @@ class Student:
         return (self.phy + self.che + self.math) / 3
 
 def main():
-    phy = int(input("Enter your physics marks: "))
-    che = int(input("Enter your chemistry marks: "))
-    math = int(input("Enter your math marks: "))
-    s1 = Student("Jarun Jawed", phy, che, math)
+    phy = int(input("Enter your Physics marks: "))
+    che = int(input("Enter your Chemistry marks: "))
+    math = int(input("Enter your Math marks: "))
+    s1 = Student("Sidra Fatima", phy, che, math)
     print(f"Student Name: {s1.name}")
     print(f"Physics marks: {s1.phy}, Chemistry marks: {s1.che}, Math marks: {s1.math}")
-    print(f"Score: {s1.percentage} %")
+    print(f"Score: {s1.percentage:.2f}%")
     print("By mistake teacher gave physics 98, it should be 89")
     s1.phy = 89
     print(f"Physics new marks: {s1.phy}")
-    print(f"Score: {s1.percentage} %")
+    print(f"Score: {s1.percentage:.2f}%")
 
 main()
