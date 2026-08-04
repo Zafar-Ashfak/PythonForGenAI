@@ -11,10 +11,14 @@ def create_dictionary(n):
         7: "item7"
     }
 
-    my_dict_opt = {i : f"item{i}" for i in range(1, n + 1) }
+    dict1 = {i : f"item{i}" for i in range(1, n + 1) }
+
+    # It changes the position of key and value
+    dict2 = {value:key for key,value in dict1.items() }
 
     # print(my_dict)
-    print(my_dict_opt)
+    print(dict1)
+    print(dict2)
 
 
 def main():
