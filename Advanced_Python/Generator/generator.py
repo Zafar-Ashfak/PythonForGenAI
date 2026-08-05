@@ -1,15 +1,14 @@
-# no-argument generator to print num from 1 to 1000 but resumes for the next call
+# Generator without arguments to print num from 1 to 1000 but resumes for the next call
 def nums():
-    for num in range(1, 1000):
+    for num in range(1, 1001):
         yield num
 
-
-# argument generator to print num from 1 to n but resumes for the next call
+# Generator with arguments to print num from 1 to n but resumes for the next call
 def nums_up_to(n):
     for i in range(1, n + 1):
         yield i
 
-# no argument generator but yield many statements
+# Generator with multiple yield statements
 def fruits():
     yield "Apple"
     yield "Banana"
