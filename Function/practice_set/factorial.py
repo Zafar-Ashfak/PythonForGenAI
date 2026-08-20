@@ -1,4 +1,4 @@
-# Write a function to check factorial of a number given by user
+# Write a function to calculate factorial of a number given by user
 
 def factorial(num):
     fac = 1

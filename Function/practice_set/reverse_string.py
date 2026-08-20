@@ -3,7 +3,6 @@
 def reverse(text):
     return text[::-1]
 
-
 def reversestring(text):
     rev = ""
     for ch in text:
