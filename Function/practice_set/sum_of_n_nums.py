@@ -1,3 +1,5 @@
+# Write a function to calculate the sum of first n natural number
+
 def sum_of_n_nums(n):
     s = 0
     for i in range(1, n + 1):
