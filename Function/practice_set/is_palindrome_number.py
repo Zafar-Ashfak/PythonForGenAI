@@ -1,5 +1,3 @@
-# # Write a function to check if a user given number is palindrome
-
 def is_palindrome(num):
     rev = 0
 
