@@ -1,5 +1,3 @@
-# Write a function to calculate factorial of a number given by user
-
 def factorial(num):
     fac = 1
 
