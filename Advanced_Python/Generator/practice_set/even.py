@@ -1,5 +1,3 @@
-# Write a function to print even numbers from 2 to n using generator
-
 def get_even(n):
     for i in range(2, n + 1, 2):
         yield i
