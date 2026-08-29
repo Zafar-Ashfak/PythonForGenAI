@@ -1,5 +1,3 @@
-# Write a function to count vowels and consonants in a string
-
 def count(text):
     text = text.lower()
 
