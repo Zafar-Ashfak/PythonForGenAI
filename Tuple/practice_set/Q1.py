@@ -1,5 +1,3 @@
-# Write a program to store seven animals name in a list entered by user
-
 animals = list()
 
 user_input = input("Enter the first animal name: ")
