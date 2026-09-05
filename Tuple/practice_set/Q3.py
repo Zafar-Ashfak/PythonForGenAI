@@ -1,4 +1,3 @@
-# Check that a type cannot be changed in python
 my_list = [12, 31, "Python", "React.js", True, None, "RAG", False]
 
 my_list[2] = "Java"
