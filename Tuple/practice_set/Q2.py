@@ -1,5 +1,3 @@
-# Write a program to accept marks of 6 students and display them in a sorted manner.
-
 marks = list()
 
 marks.append(int(input("Enter the marks of first student: ")))
