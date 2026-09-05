@@ -1,4 +1,3 @@
-# Write a program to take input from the user and display all the unique numbers (once).
 num_set = set()
 
 num = int(input("Enter the 1st number: "))
